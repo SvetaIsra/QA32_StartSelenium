@@ -40,4 +40,27 @@ public class StartPhoneBook {
 
 
     }
+    @Test
+    public void home(){
+        wd = new ChromeDriver();
+        wd.navigate().to("https://contacts-app.tobbymarshall815.vercel.app");
+        wd.manage().window().maximize();
+
+        WebElement el1 = wd.findElement(By.tagName("html"));
+        WebElement el2 = wd.findElement(By.tagName("head"));
+        WebElement el3 = wd.findElement(By.tagName("title"));
+        WebElement el4 = wd.findElement(By.tagName("body"));
+        WebElement el5 = wd.findElement(By.tagName("div"));
+        WebElement el6 = wd.findElement(By.tagName("h1"));
+        WebElement el7 = wd.findElement(By.tagName("a"));
+        WebElement el8 = wd.findElement(By.tagName("h2"));
+        WebElement el9 = wd.findElement(By.tagName("h3"));
+        WebElement el10 = wd.findElement(By.tagName("script"));
+
+        WebElement el11 = wd.findElement(By.id("root"));
+
+        WebElement el12 = wd.findElement(By.className("container"));
+        WebElement el13 = wd.findElement(By.className("active"));
+
+    }
 }
