@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/QA32_StartSelenium" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/QA_32Start" vcs="Git" />
   </component>
 </project>
